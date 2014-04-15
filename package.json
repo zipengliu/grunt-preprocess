@@ -2,23 +2,23 @@
   "name": "grunt-preprocess",
   "description": "Preprocess HTML and JavaScript directives based off environment configuration",
   "version": "4.0.0",
-  "homepage": "https://github.com/jsoverson/grunt-preprocess",
+  "homepage": "https://github.com/winnieliu/grunt-preprocess",
   "author": {
     "name": "Jarrod Overson",
-    "email": "jsoverson@gmail.com",
-    "url": "http://jarrodoverson.com/"
+    "email": "winnieliupku@gmail.com",
+    "url": "http://winnieliu.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsoverson/grunt-preprocess.git"
+    "url": "git://github.com/winnieliu/grunt-preprocess.git"
   },
   "bugs": {
-    "url": "https://github.com/jsoverson/grunt-preprocess/issues"
+    "url": "https://github.com/winnieliu/grunt-preprocess/issues"
   },
   "licenses": [
     {
       "type": "Apache",
-      "url": "https://github.com/jsoverson/grunt-preprocess/blob/master/LICENSE"
+      "url": "https://github.com/winnieliu/grunt-preprocess/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
@@ -33,7 +33,7 @@
     "grunt": "~0.4.0"
   },
   "dependencies": {
-    "preprocess": "~2.0.0"
+      "preprocess": "git://github.com/winnieliu/preprocess.git#master"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
